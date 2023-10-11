@@ -1,17 +1,28 @@
+import { useRef } from "react";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 
 function Metro() {
     const path = process.env.PUBLIC_URL;
+    const linkRef = useRef(null);
+    const sectionRef = useRef(null);
+
+    const handleClick = () => {
+        for(let i = 0; i<linkRef.length; i++){
+            linkRef[i].classList.remove("on");
+        }
+        
+    }
+
     return (
         <main id="metro">
             <nav>
-                <Link to="#;">배추(Cabbage)</Link>
-                <Link to="#;">무(Radish)</Link>
-                <Link to="#;">파(Spring onion)</Link>
+                <Link to="#;" ref={linkRef} className="on" onClick={handleClick}>배추(Cabbage)</Link>
+                <Link to="#;" ref={linkRef} onClick={handleClick}>무(Radish)</Link>
+                <Link to="#;" ref={linkRef} onClick={handleClick}>파(Spring onion)</Link>
             </nav>
 
-            <section className="on active">
+            <section className="on active" ref={sectionRef}>
                 <article>
                     <h2>CABBAGE <br />
                         KIMCHI</h2>
@@ -32,7 +43,7 @@ function Metro() {
                     </div>
                 </article>
             </section>
-            <section>
+            <section ref={sectionRef}>
                 <article>
                     <h2>RADISH <br />
                         KIMCHI</h2>
@@ -53,7 +64,7 @@ function Metro() {
                     </div>
                 </article>
             </section>
-            <section>
+            <section ref={sectionRef}>
                 <article>
                     <h2>SPRING ONION KIMCHI</h2>
                 </article>
