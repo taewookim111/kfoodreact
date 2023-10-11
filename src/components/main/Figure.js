@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
 
+
 function Figure() {
     return (
         <figure>
-            <video src="../video/김장.mp4" autoPlay loop muted></video>
+            <video src={process.env.PUBLIC_URL + "/video/김장.mp4"} autoPlay loop muted></video>
             <div className="inner">
                 <h2>Making of Kimchi</h2>
                 <span>(김장)</span>

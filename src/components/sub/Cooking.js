@@ -16,9 +16,10 @@ import { faShrimp } from "@fortawesome/free-solid-svg-icons"
 import { faClock } from "@fortawesome/free-solid-svg-icons"
 
 function Cooking() {
+    const path = process.env.PUBLIC_URL;
     return (
         <section id="cooking">
-            <img src="./img/춘철야유도.jpg" className="eating" alt="조선시대의회식" />
+            <img src={path + "/img/춘철야유도.jpg"} className="eating" alt="조선시대의회식" />
             <h1>요리 기법 <br /> <br />
                 (Cooking Method)
             </h1>

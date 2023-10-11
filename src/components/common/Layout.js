@@ -2,12 +2,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faX } from "@fortawesome/free-solid-svg-icons";
 
 function Layout() {
+    const path = process.env.PUBLIC_URL;
     return (
         <section id="layout">
             <h2 className="title">CULTURAL DISHES</h2>
             <div className="wrap">
                 <article>
-                    <video src="./video/국.mp4" loop muted></video>
+                    <video src={path + "/video/국.mp4"} loop muted></video>
                     <FontAwesomeIcon icon={faX} />
                     <h3>국 <br /> <br />
                         (Soup)</h3>
@@ -16,7 +17,7 @@ function Layout() {
                     </p>
                 </article>
                 <article>
-                    <video src="./video/bibimbap.mp4" loop muted></video>
+                    <video src={path + "/video/bibimbap.mp4"} loop muted></video>
                     <FontAwesomeIcon icon={faX} />
                     <h3>비빔밥 <br /> <br />
                         (Bibimbap)</h3>
@@ -26,7 +27,7 @@ function Layout() {
                     </p>
                 </article>
                 <article>
-                    <video src="./video/kbbq.mp4" loop muted></video>
+                    <video src={path + "/video/kbbq.mp4"} loop muted></video>
                     <FontAwesomeIcon icon={faX} />
                     <h3>삼겹살 <br /> <br />
                         (Pork belly)</h3>

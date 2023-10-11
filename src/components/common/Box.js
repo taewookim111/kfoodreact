@@ -6,6 +6,7 @@ import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 import { faX } from "@fortawesome/free-solid-svg-icons";
 
 function Box() {
+    const path = process.env.PUBLIC_URL;
     return (
         <>
             <section id="box">
@@ -27,17 +28,17 @@ function Box() {
                             Usage of medicinal ingredients</p>
                     </article>
                     <div className="pic">
-                        <img className="wood" src="./img/쌀.webp" alt="쌀" />
+                        <img className="wood" src={path + "/img/쌀.webp"} alt="쌀" />
                     </div>
                     <div className="pic2">
-                        <img className="rice" src="./img/벼.webp" alt="벼" />
+                        <img className="rice" src={path + "/img/벼.webp"} alt="벼" />
                     </div>
                 </div>
                 <Link to="#;">Home Food (집밥)</Link>
             </section>
             <aside className="aside">
                 <div className="inner">
-                    <img src="./img/백반.webp" className="meal" alt="백반" />
+                    <img src={path + "/img/백반.webp"} className="meal" alt="백반" />
                     <div>
                         <h2>백반 (Baekban)</h2>
                         <p>한국인의 백반은 건강과 맛이 있습니다. 이 백반이란, 거창한 메인디쉬가 아니라 익숙하고
@@ -48,7 +49,7 @@ function Box() {
                             rice.
                         </p>
                     </div>
-                    <img src="./img/백반의 역사.jpg" className="meal2" alt="백반의 역사" />
+                    <img src={path + "/img/백반의 역사.jpg"} className="meal2" alt="백반의 역사" />
                     <FontAwesomeIcon icon={faX} />
                 </div>
             </aside>

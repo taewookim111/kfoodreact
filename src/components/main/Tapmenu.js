@@ -2,6 +2,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min"
 import { useCallback, useState } from "react";
 
 function Tapmenu() {
+    const path = process.env.PUBLIC_URL;
     return (
         <section id="tapmenu">
             <h2 className="title1"><br />STREET<br />
@@ -33,7 +34,7 @@ function Tapmenu() {
                 </nav>
                 <section id="contents">
                     <article className="on">
-                        <img src="./img/sweetkoreanpancake.jpg" alt="호떡" />
+                        <img src={path + "/img/sweetkoreanpancake.jpg"} alt="호떡" />
                         <div className="txt">
                             <h2>호떡 (Hotteok)</h2>
                             <p>반죽을 기름에 튀겨 쫄깃하고 바삭한 식감,
@@ -49,7 +50,7 @@ function Tapmenu() {
                         </div>
                     </article>
                     <article>
-                        <img src="./img/fishcake.jpg" alt="어묵" />
+                        <img src={path + "/img/fishcake.jpg"} alt="어묵" />
                         <div className="txt">
                             <h2>어묵 (Eomuk)</h2>
                             <p>어묵은 으깬 생선살과 전분 혹은 밀가루, 쌀가루를 뭉쳐서 열을 가해
@@ -67,7 +68,7 @@ function Tapmenu() {
                         </div>
                     </article>
                     <article>
-                        <img src="./img/Spicy Rice Cake.jpg" alt="떡볶이" />
+                        <img src={path + "/img/Spicy Rice Cake.jpg"} alt="떡볶이" />
                         <div className="txt">
                             <h2>떡볶이 (Tteokbokki)</h2>
                             <p>떡과 부재료를 양념에 볶거나 끓여서 먹는 한국 요리의 하나입니다.
@@ -85,7 +86,7 @@ function Tapmenu() {
                         </div>
                     </article>
                     <article>
-                        <img src="./img/FishShapedBread.webp" alt="붕어빵" />
+                        <img src={path + "/img/FishShapedBread.webp"} alt="붕어빵" />
                         <div className="txt">
                             <h2>붕어빵 (Bungeoppang)</h2>
                             <p>

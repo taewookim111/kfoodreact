@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom/cjs/react-router-dom.min"
 
 function Kimchi() {
+    const path = process.env.PUBLIC_URL;
     return (
         <>
             <section id="kimchi">
                 <div className="inner1">
                     <h1>김치의 영양 (Probiotics)</h1>
-                    <img data-index="1" src="./img/vitamin.jpg" alt="원소기호비타민" />
-                    <img data-index="2" src="./img/pills.jpg" alt="채소알약" />
+                    <img data-index="1" src={path + "/img/vitamin.jpg"} alt="원소기호비타민" />
+                    <img data-index="2" src={path + "/img/pills.jpg"} alt="채소알약" />
                     <div className="txt">
                         <p>김치가 인정받는 제일 큰 이유는 바로 유산균 때문입니다. 김치의 효력으로는 소화를 증진시키고 피부 질환을 유발하는 균을 억제시키며
                             콜레스테롤 분해(이건 유산균과 김치에 들어가는 마늘 두 가지의 콜라보 입니다), 성인병 예방과 체중 감소 효과,
@@ -17,7 +18,7 @@ function Kimchi() {
                             And assuming that you significantly reduce your intake of irritating foods, it is said to be effective against stomach ulcers, and most of this is due to the abundance of lactic acid bacteria.
                         </p>
                     </div>
-                    <img src="./img/장독대.jpg" className="bg1" alt="장독대" />
+                    <img src={path + "/img/장독대.jpg"} className="bg1" alt="장독대" />
                 </div>
                 <div className="banner">
                     <h2>CHILLIES</h2>
@@ -38,11 +39,11 @@ function Kimchi() {
                 </div>
             </section>
             <section id="map">
-                <img src="./img/장독대.jpg" className="bg2" alt="장독대" />
-                <img src="./img/장독대.jpg" className="bg3" alt="장독대" />
+                <img src={path + "/img/장독대.jpg"} className="bg2" alt="장독대" />
+                <img src={path + "/img/장독대.jpg"} className="bg3" alt="장독대" />
                 <div className="left">
                     <h2>경기도 (Gyeonggi-do)</h2>
-                    <img src="./img/경기도.svg" alt="경기도위치" />
+                    <img src={path + "/img/경기도.svg"} alt="경기도위치" />
                     <p>
                         경기도는 새우젓에 황석어젓, 까나리젓을 사용해서 시원한
                         청량감을 살리며 산미와 감칠맛을 내는 김치를 담급니다. <br /> <br />
@@ -50,7 +51,7 @@ function Kimchi() {
                         Make kimchi that adds acidity and savory flavor while maintaining a refreshing feel.
                     </p>
                     <h3>Landmark</h3>
-                    <img src="./img/수원화성.jpg" className="pic" alt="수원화성" />
+                    <img src={path + "/img/수원화성.jpg"} className="pic" alt="수원화성" />
                     <p>
                         경기도에는 수원화성이라는 유명한 건축물이 있습니다.
                         수원화성은 조선 정조 시기에 지은 경기도 수원시의 성곽 건축물과 이를 중심으로 한 계획도시입니다.
@@ -70,7 +71,7 @@ function Kimchi() {
                         You can use water made with anchovies in it, or add it.
                         To bring out the umami flavor, we use clear salted shrimp and salted anchovies.
                     </p>
-                    <img src="./img/강원도.svg" alt="강원도위치" />
+                    <img src={path + "/img/강원도.svg"} alt="강원도위치" />
                     <h3>Landmark</h3>
                     <p>
                         강원특별자치도 양양군 강현면에 위치한 사찰로, 신라 문무왕 11년(671년)에 의상대사가 창건하였다고 전합니다.
@@ -78,11 +79,11 @@ function Kimchi() {
                         It is a temple located in Ganghyeon-myeon, Yangyang-gun, Gangwon State, and is said to have been founded by Uisang in the 11th year of King Munmu of Silla (671).
                         The picture above is a huge Gwaneum Buddha statue located at the end of the temple, which was the largest Buddha statue in the East until 1977.
                     </p>
-                    <img src="./img/해수관세음보살상.jpg" className="pic" alt="해수관세음보살상" />
+                    <img src={path + "/img/해수관세음보살상.jpg"} className="pic" alt="해수관세음보살상" />
                 </div>
                 <div className="left1">
                     <h2>충청도 (Chungcheong-do)</h2>
-                    <img src="./img/충청도.svg" alt="충청도위치" />
+                    <img src={path + "/img/충청도.svg"} alt="충청도위치" />
                     <p>
                         충청도는 소금만을 사용하여 젓갈 맛이 많이 나지 않고
                         양념을 적게 넣어 소박하고 시원한 맛이 나는 것이 특징입니다. <br /><br />
@@ -90,7 +91,7 @@ function Kimchi() {
                         It is characterized by a simple and refreshing taste with little seasoning.
                     </p>
                     <h3>Landmark</h3>
-                    <img src="./img/단양고수동굴.jpg" className="pic" alt="단양고수동굴" />
+                    <img src={path + "/img/단양고수동굴.jpg"} className="pic" alt="단양고수동굴" />
                     <p>
                         충청도에는 약 4억 5천만년 동안 생성되어 온 석회암 자연동굴이 있습니다.
                         밤하늘의 오로라를 보는 듯 황홀하고 웅장한 모양이 가득합니다. <br /><br />
@@ -108,7 +109,7 @@ function Kimchi() {
                         Made with anchovy sauce and salted cutlassfish,
                         It is said that it is made with less broth.
                     </p>
-                    <img src="./img/경상도.svg" alt="경상도위치" />
+                    <img src={path + "/img/경상도.svg"} alt="경상도위치" />
                     <h3>Landmark</h3>
                     <p>
                         경상북도 안동시 풍천면 하회리에 위치한 민속마을인 하회마을은 2010년 8월 유네스코 세계문화유산으로 지정된 명소입니다.
@@ -116,11 +117,11 @@ function Kimchi() {
                         Hahoe Village, a folk village located in Hahoe-ri, Pungcheon-myeon, Andong-si, Gyeongsangbuk-do, was designated as a UNESCO World Heritage Site in August 2010.
                         As the name Hahoe suggests, the river flows around the village.
                     </p>
-                    <img src="./img/하회마을.jpg" className="pic" alt="하회마을" />
+                    <img src={path + "/img/하회마을.jpg"} className="pic" alt="하회마을" />
                 </div>
                 <div className="left2">
                     <h2>전라도 (Jeolla-do)</h2>
-                    <img src="./img/전라도.svg" alt="전라도위치" />
+                    <img src={path + "/img/전라도.svg"} alt="전라도위치" />
                     <p>
                         전라도는 고춧가루와 조기젓과 새우젓 등의
                         젓갈을 많이 사용하여 매운맛을 내는 것이 특징입니다. <br /><br />
@@ -128,7 +129,7 @@ function Kimchi() {
                         It is characterized by the use of a lot of salted fish to give it a spicy taste.
                     </p>
                     <h3>Landmark</h3>
-                    <img src="./img/순천만.jpg" className="pic" alt="순천만" />
+                    <img src={path + "/img/순천만.jpg"} className="pic" alt="순천만" />
                     <p>
                         순천만은 전라남도 순천시지역에 있는 만으로 갯벌에 펼쳐지는 갈대밭과 칠면초 군락, S자형 수로 등이 어우러져 다양한 해안생태경관을 보여주는 경승지입니다.
                         한국의 갯벌이라는 제목으로 유네스코 세계자연유산으로 등재되었습니다. <br /><br />
@@ -168,10 +169,10 @@ function Kimchi() {
                     </li>
                 </ul>
                 <Link to="#;" className="prev">
-                    <img src="img/btnPrev.png" alt="이전 버튼" />
+                    <img src={path + "/img/btnPrev.png"} alt="이전 버튼" />
                 </Link>
                 <Link to="#;" className="next">
-                    <img src="img/btnNext.png" alt="다음 버튼" />
+                    <img src={path + "/img/btnNext.png"} alt="다음 버튼" />
                 </Link>
             </section>
         </>

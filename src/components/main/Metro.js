@@ -2,6 +2,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 
 function Metro() {
+    const path = process.env.PUBLIC_URL;
     return (
         <main id="metro">
             <nav>
@@ -17,17 +18,17 @@ function Metro() {
                 </article>
                 <article>
                     <div className="inner">
-                        <img src="./img/chillipaste.jpg" alt="김치소" />
+                        <img src={path + "/img/chillipaste.jpg"} alt="김치소" />
                     </div>
                 </article>
                 <article>
                     <div className="inner">
-                        <img src="./img/cabbage.jpg" alt="배추절임" />
+                        <img src={path + "/img/cabbage.jpg"} alt="배추절임" />
                     </div>
                 </article>
                 <article>
                     <div className="inner">
-                        <img src="./img/CabbageKimchi.webp" alt="배추김치" />
+                        <img src={path + "/img/CabbageKimchi.webp"} alt="배추김치" />
                     </div>
                 </article>
             </section>
@@ -38,17 +39,17 @@ function Metro() {
                 </article>
                 <article>
                     <div className="inner">
-                        <img src="./img/GGagddugi.webp" alt="깍두기" />
+                        <img src={path + "/img/GGagddugi.webp"} alt="깍두기" />
                     </div>
                 </article>
                 <article>
                     <div className="inner">
-                        <img src="./img/Radish.jpg" alt="무" />
+                        <img src={path + "/img/Radish.jpg"} alt="무" />
                     </div>
                 </article>
                 <article>
                     <div className="inner">
-                        <img src="./img/RadishKimchi.webp" alt="무김치" />
+                        <img src={path + "/img/RadishKimchi.webp"} alt="무김치" />
                     </div>
                 </article>
             </section>
@@ -58,17 +59,17 @@ function Metro() {
                 </article>
                 <article>
                     <div className="inner">
-                        <img src="./img/ramenwithspringonionkimchi.jpg" alt="파김치와 짜파게티" />
+                        <img src={path + "/img/ramenwithspringonionkimchi.jpg"} alt="파김치와 짜파게티" />
                     </div>
                 </article>
                 <article>
                     <div className="inner">
-                        <img src="./img/springonion.jpg" alt="파" />
+                        <img src={path + "/img/springonion.jpg"} alt="파" />
                     </div>
                 </article>
                 <article>
                     <div className="inner">
-                        <img src="./img/springonionkimchi.jpg" alt="파김치" />
+                        <img src={path + "/img/springonionkimchi.jpg"} alt="파김치" />
                     </div>
                 </article>
             </section>
