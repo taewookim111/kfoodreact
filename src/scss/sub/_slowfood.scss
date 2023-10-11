@@ -1,0 +1,49 @@
+.youtubeArticle {
+	margin: 100px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #999;
+	.youtubePic {
+		margin: 50px 0;
+		position: relative;
+		left: 10%;
+		img {
+			border-radius: 20px;
+			filter: saturate(0.4);
+			transition: 0.5s;
+		}
+		.fa-youtube {
+			font-size: 100px;
+			position: absolute;
+			transform: translate(-200%, 80%);
+			opacity: 0;
+			color: red;
+			transition: 0.5s;
+		}
+		&:hover {
+			img {
+				filter: saturate(1.1);
+			}
+			.fa-youtube {
+				opacity: 1;
+				transform: translate(-200%, 40%);
+				cursor: pointer;
+			}
+		}
+	}
+	.youtubeTxt {
+		margin: 100px 0;
+		position: relative;
+		right: 10%;
+		h2 {
+			font: bold 32px/1 'arial';
+			color: #fff;
+			margin-bottom: 20px;
+		}
+		p {
+			font: 14px/1.2 'Nanum Myeongjo';
+			color: #fff;
+		}
+	}
+}
