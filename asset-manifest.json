@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kfoodreact/static/css/main.bf00eeb3.css",
-    "main.js": "/kfoodreact/static/js/main.d93be6ce.js",
+    "main.js": "/kfoodreact/static/js/main.68317f74.js",
     "static/media/chillies.jpg": "/kfoodreact/static/media/chillies.36cc059e434733fcd106.jpg",
     "static/media/김치보관.png": "/kfoodreact/static/media/김치보관.f85bacc141306c6267d1.png",
     "static/media/배추절이는사진.jpg": "/kfoodreact/static/media/배추절이는사진.354ce1e5f213194de575.jpg",
@@ -15,10 +15,10 @@
     "static/media/jar.svg": "/kfoodreact/static/media/jar.8c166096b25a52e249fe.svg",
     "index.html": "/kfoodreact/index.html",
     "main.bf00eeb3.css.map": "/kfoodreact/static/css/main.bf00eeb3.css.map",
-    "main.d93be6ce.js.map": "/kfoodreact/static/js/main.d93be6ce.js.map"
+    "main.68317f74.js.map": "/kfoodreact/static/js/main.68317f74.js.map"
   },
   "entrypoints": [
     "static/css/main.bf00eeb3.css",
-    "static/js/main.d93be6ce.js"
+    "static/js/main.68317f74.js"
   ]
 }
