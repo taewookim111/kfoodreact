@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/kfoodreact/static/css/main.bf00eeb3.css",
+    "main.js": "/kfoodreact/static/js/main.d93be6ce.js",
+    "static/media/chillies.jpg": "/kfoodreact/static/media/chillies.36cc059e434733fcd106.jpg",
+    "static/media/김치보관.png": "/kfoodreact/static/media/김치보관.f85bacc141306c6267d1.png",
+    "static/media/배추절이는사진.jpg": "/kfoodreact/static/media/배추절이는사진.354ce1e5f213194de575.jpg",
+    "static/media/김장리액트.jpg": "/kfoodreact/static/media/김장리액트.ef251a8a60bf0f09261a.jpg",
+    "static/media/김장.jpg": "/kfoodreact/static/media/김장.1a2093f8bc2b7923dd0a.jpg",
+    "static/media/단청.jpg": "/kfoodreact/static/media/단청.9e32caeb183c9f18998e.jpg",
+    "static/media/한지.jpg": "/kfoodreact/static/media/한지.908666665331fb891c89.jpg",
+    "static/media/조선국기.svg": "/kfoodreact/static/media/조선국기.b33e43aa8e8b6e116fb4.svg",
+    "static/media/drumstick.svg": "/kfoodreact/static/media/drumstick.b79aefafa3901a922eaf.svg",
+    "static/media/sealeaf.svg": "/kfoodreact/static/media/sealeaf.da456f552cf945160b97.svg",
+    "static/media/jar.svg": "/kfoodreact/static/media/jar.8c166096b25a52e249fe.svg",
+    "index.html": "/kfoodreact/index.html",
+    "main.bf00eeb3.css.map": "/kfoodreact/static/css/main.bf00eeb3.css.map",
+    "main.d93be6ce.js.map": "/kfoodreact/static/js/main.d93be6ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf00eeb3.css",
+    "static/js/main.d93be6ce.js"
+  ]
+}
